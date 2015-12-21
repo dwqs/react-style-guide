@@ -1,18 +1,18 @@
-eact 编程规范(by [Airbnb](https://github.com/airbnb/javascript/tree/master/react))
-##<span id='dir'></span>目录
-1. <a href='#basic-rules'>基本规则</a>
-2. <a href='#naming'>命名</a>
-3. <a href='#declaration'>声明</a>
-4. <a href='#alignment'>对齐</a>
-5. <a href='#quotes'>引号</a>
-6. <a href='#spacing'>空格</a>
-7. <a href='#props'>属性</a>
-8. <a href='#parenthese'>括号
-9. <a href='#tags'>标签</a>
-10. <a href='#method'>方法</a>
-11. <a href='order'>顺序</a>
+#React 编程规范(by [Airbnb](https://github.com/airbnb/javascript/tree/master/react))
+##目录
+1. 基本规则
+2. 命名
+3. 声明
+4. 对齐
+5. 引号
+6. 空格
+7. 属性
+8. 括号
+9. 标签
+10. 方法
+11. 顺序
 
-##<span id='basic-rules'></span>基本规则
+##基本规则
 
 * 每个文件只包含一个 React 组件
 * 使用 `JSX` 语法
@@ -38,7 +38,7 @@ class Listing extends React.Component {
 }
 ```
 
-##<span id='naming'></span>命名
+##命名
 
 * **扩展名:** 使用 `jsx` 作为 React 组件的扩展名
 * **文件名:** 文件命名采用帕斯卡命名法，如：`ReservationCard.jsx`
@@ -70,7 +70,7 @@ const Footer = require('./Footer/index.jsx')
 const Footer = require('./Footer')
 ```
 
-##<span id='declaration'></span>声明
+##声明
 
 * 不要通过 `displayName` 来命名组件，通过引用来命名组件
 
@@ -86,7 +86,7 @@ export default class ReservationCard extends React.Component {
 }
 ```
 
-##<span id='alignment'></span>对齐
+##对齐
 
 * 对于 `JSX` 语法，遵循下面的对齐风格。eslint rules:  [react/jsx-closing-bracket-location](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-bracket-location.md)
 
@@ -113,7 +113,7 @@ export default class ReservationCard extends React.Component {
   </Foo>
 ```
 
-##<span id='quote'></span>引号
+##引号
 
 * 对于 `JSX` 使用双引号，对其它所有 JS 属性使用单引号
 
@@ -135,7 +135,7 @@ eslint rules: [jsx-quotes](http://eslint.org/docs/rules/jsx-quotes)
   <Foo style={{ left: '20px' }} />
 ```
 
-##<span id='spacing'></span>空格
+##空格
 
 * 在自闭和标签之前留一个空格
 
@@ -154,7 +154,7 @@ eslint rules: [jsx-quotes](http://eslint.org/docs/rules/jsx-quotes)
 <Foo />
 ```
 
-##<span id='props'></span>属性
+##属性
 
 * 属性名采用驼峰式命名法
 
@@ -173,7 +173,7 @@ eslint rules: [jsx-quotes](http://eslint.org/docs/rules/jsx-quotes)
 
 ```
 
-##<span id='parenthese'></span>括号
+##括号
 
 * 当组件跨行时，要用括号包裹 JSX 标签。eslint rules: [react/wrap-multilines](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/wrap-multilines.md)
 
@@ -201,7 +201,7 @@ eslint rules: [jsx-quotes](http://eslint.org/docs/rules/jsx-quotes)
   }
 ```
 
-##<span id='tags'></span>标签
+##标签
 
 * 没有子组件的父组件使用自闭和标签。eslint rules: [react/self-closing-comp](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/self-closing-comp.md)
 
@@ -227,7 +227,7 @@ eslint rules: [jsx-quotes](http://eslint.org/docs/rules/jsx-quotes)
   />
 ```
 
-##<span id='method'></span>方法
+##方法
 
 * 不要对 React 组件的内置方法使用 `underscore` 前缀
 
@@ -251,7 +251,7 @@ class extends React.Component {
 });
 ```
 
-##<span id='order'></span>顺序
+##顺序
 
 * 继承 React.Component 的类的方法遵循下面的顺序
 
@@ -326,6 +326,3 @@ export default Link;
 21. render
 
 eslint rules: [react/sort-comp](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md)
-
-<a href='#dir'> back to top</a>
-
