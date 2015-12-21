@@ -1,5 +1,24 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [React 编程规范(by [Airbnb](https://github.com/airbnb/javascript/tree/master/react))](#react-%E7%BC%96%E7%A8%8B%E8%A7%84%E8%8C%83by-airbnbhttpsgithubcomairbnbjavascripttreemasterreact)
+  - [基本规则](#%E5%9F%BA%E6%9C%AC%E8%A7%84%E5%88%99)
+  - [命名](#%E5%91%BD%E5%90%8D)
+  - [声明](#%E5%A3%B0%E6%98%8E)
+  - [对齐](#%E5%AF%B9%E9%BD%90)
+  - [引号](#%E5%BC%95%E5%8F%B7)
+  - [空格](#%E7%A9%BA%E6%A0%BC)
+  - [属性](#%E5%B1%9E%E6%80%A7)
+  - [括号](#%E6%8B%AC%E5%8F%B7)
+  - [标签](#%E6%A0%87%E7%AD%BE)
+  - [方法](#%E6%96%B9%E6%B3%95)
+  - [顺序](#%E9%A1%BA%E5%BA%8F)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 #React 编程规范(by [Airbnb](https://github.com/airbnb/javascript/tree/master/react))
-[TOC]
+
 
 ##基本规则
 
