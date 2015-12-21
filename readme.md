@@ -1,16 +1,5 @@
 #React 编程规范(by [Airbnb](https://github.com/airbnb/javascript/tree/master/react))
-##目录
-1. 基本规则
-2. 命名
-3. 声明
-4. 对齐
-5. 引号
-6. 空格
-7. 属性
-8. 括号
-9. 标签
-10. 方法
-11. 顺序
+[TOC]
 
 ##基本规则
 
@@ -326,3 +315,5 @@ export default Link;
 21. render
 
 eslint rules: [react/sort-comp](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md)
+
+
