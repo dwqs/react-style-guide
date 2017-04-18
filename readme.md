@@ -1,4 +1,4 @@
-#React 编程规范(by [Airbnb](https://github.com/airbnb/javascript/tree/master/react))
+# React 编程规范(by [Airbnb](https://github.com/airbnb/javascript/tree/master/react))
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -18,7 +18,7 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-##基本规则
+## 基本规则
 
 * 每个文件只包含一个 React 组件
 * 使用 `JSX` 语法
@@ -44,7 +44,7 @@ class Listing extends React.Component {
 }
 ```
 
-##命名
+## 命名
 
 * **扩展名:** 使用 `jsx` 作为 React 组件的扩展名
 * **文件名:** 文件命名采用帕斯卡命名法，如：`ReservationCard.jsx`
@@ -76,7 +76,7 @@ const Footer = require('./Footer/index.jsx')
 const Footer = require('./Footer')
 ```
 
-##声明
+## 声明
 
 * 不要通过 `displayName` 来命名组件，通过引用来命名组件
 
@@ -92,7 +92,7 @@ export default class ReservationCard extends React.Component {
 }
 ```
 
-##对齐
+## 对齐
 
 * 对于 `JSX` 语法，遵循下面的对齐风格。eslint rules:  [react/jsx-closing-bracket-location](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-bracket-location.md)
 
@@ -119,7 +119,7 @@ export default class ReservationCard extends React.Component {
   </Foo>
 ```
 
-##引号
+## 引号
 
 * 对于 `JSX` 使用双引号，对其它所有 JS 属性使用单引号
 
@@ -141,7 +141,7 @@ eslint rules: [jsx-quotes](http://eslint.org/docs/rules/jsx-quotes)
   <Foo style={{ left: '20px' }} />
 ```
 
-##空格
+## 空格
 
 * 在自闭和标签之前留一个空格
 
@@ -160,7 +160,7 @@ eslint rules: [jsx-quotes](http://eslint.org/docs/rules/jsx-quotes)
 <Foo />
 ```
 
-##属性
+## 属性
 
 * 属性名采用驼峰式命名法
 
@@ -179,7 +179,7 @@ eslint rules: [jsx-quotes](http://eslint.org/docs/rules/jsx-quotes)
 
 ```
 
-##括号
+## 括号
 
 * 当组件跨行时，要用括号包裹 JSX 标签。eslint rules: [react/wrap-multilines](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/wrap-multilines.md)
 
@@ -207,7 +207,7 @@ eslint rules: [jsx-quotes](http://eslint.org/docs/rules/jsx-quotes)
   }
 ```
 
-##标签
+## 标签
 
 * 没有子组件的父组件使用自闭和标签。eslint rules: [react/self-closing-comp](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/self-closing-comp.md)
 
@@ -233,7 +233,7 @@ eslint rules: [jsx-quotes](http://eslint.org/docs/rules/jsx-quotes)
   />
 ```
 
-##方法
+## 方法
 
 * 不要对 React 组件的内置方法使用 `underscore` 前缀
 
@@ -257,7 +257,7 @@ class extends React.Component {
 });
 ```
 
-##顺序
+## 顺序
 
 * 继承 React.Component 的类的方法遵循下面的顺序
 
