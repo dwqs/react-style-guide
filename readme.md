@@ -333,4 +333,7 @@ export default Link;
 
 eslint rules: [react/sort-comp](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md)
 
+### Related Resource
+
+* [Vue Component Style Guide](https://github.com/pablohpsilva/vuejs-component-style-guide)
 
